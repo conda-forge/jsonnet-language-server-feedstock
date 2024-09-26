@@ -1,5 +1,5 @@
 {% set name = "jsonnet-language-server" %}
-{% set version = "0.13.1" %}
+{% set version = "0.14.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/grafana/jsonnet-language-server/archive/v{{ version }}.tar.gz
-  sha256: 00341c5bd1ea8b2eb2be61cc26cdba5a6c6b678c30d9b3f55a625e8db40d1bfa
+  sha256: 66ba26bd7f63cf9860aa2ab8498a3b22f76cff6d4a26b1100d5832b9685ce945
 
 build:
   number: 0
