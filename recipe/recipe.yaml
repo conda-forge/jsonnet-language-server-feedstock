@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 0.16.0
+  version: "0.17.0"
 
 package:
   name: jsonnet-language-server
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/grafana/jsonnet-language-server/archive/v${{ version }}.tar.gz
-  sha256: 616fdfc5a5c9447762c1c1bb1522053d923d0415a68937ec48385eca5d49c2fa
+  sha256: 7d51fbd633475f449772c95e410ffb498df5e4e2102c7ac49072a76f38a5b98b
 
 build:
   number: 0
